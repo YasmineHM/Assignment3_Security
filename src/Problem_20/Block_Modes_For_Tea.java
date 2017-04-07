@@ -3,7 +3,7 @@ package Problem_20;
 /**
  * Created by yasmine on 4/6/2017.
  */
-public class Tea {
+public class Block_Modes_For_Tea {
 
     final static int BLOCKSIZE = 4;
     final static int DELTA = 0x9e3779b9;
@@ -13,7 +13,7 @@ public class Tea {
     static String encryptionText="";
 
 
-    public Tea(String newPlainText,int[]key,int IV)
+    public Block_Modes_For_Tea(String newPlainText, int[]key, int IV)
     {
         this.plainText = newPlainText;
         this.k=key;
