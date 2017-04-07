@@ -13,7 +13,7 @@ public class Main {
         k[1]=0x00000000;
         k[2]=0xFFFFFFFF;
         k[3] =0xABCDEF01;
-        Block_Modes_For_Tea blockModesForTea =new Block_Modes_For_Tea(PlainText1,k,IV);
+       // Block_Modes_For_Tea blockModesForTea =new Block_Modes_For_Tea(PlainText1,k,IV);
         Block_Modes_For_Tea blockModesForTea2 =new Block_Modes_For_Tea(PlainText2,k,IV);
     }
 }

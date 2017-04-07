@@ -427,7 +427,7 @@ public class Block_Modes_For_Tea {
         {
             if(cipherData[q] != null)
             {
-                encryptionText= encryptionText.concat("plain block  no -----> "+ q + " = " + "[");
+                encryptionText= encryptionText.concat("cipher block  no -----> "+ q + " = " + "[");
                 printCipherBlock(cipherData[q]);
                 encryptionText= encryptionText.concat("]" + "\n");
             }
